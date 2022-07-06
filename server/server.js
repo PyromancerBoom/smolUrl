@@ -2,6 +2,11 @@ const express = require("express");
 const { mongoose } = require("mongoose");
 const app = express();
 
+mongoose.connect("mongodb://localhost/urlShortner", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
 // const path = require("path");
 // Use for production
 // app.use(express.static(path.join(__dirname, "public")));
