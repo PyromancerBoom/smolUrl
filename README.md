@@ -1,3 +1,1 @@
-Shorter is better
-
-This web app makes it short
+This app shortens URL
